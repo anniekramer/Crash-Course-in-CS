@@ -35,7 +35,8 @@ Demystify computer science with this fast and furious approach to the fundamenta
   * Official [Python Tutorial] (https://docs.python.org/2/tutorial/)
 - Mercurial overview and why we use distributed version control systems (DVCS).
   * [Mercurial tutorial] (http://hginit.com/01.html)
-- **Deliverable** Hailstone Sequence
-  * Write a program that computes the length of the Hailstone sequence for a given natural number.
-  * Note on functions: functions should perform one discrete task. The main function should run behavior / actions on the smallest possible unit that makes sense in the context of the script. Functions should be well-defined and versatile so that they can be applied to small units.
-  * References: [blog post] (http://gabaix.us/blog/hailstone), [Wikipedia] (https://en.wikipedia.org/wiki/Collatz_conjecture#Statement_of_the_problem)
+### Deliverable: Hailstone Sequence
+- Write a program that computes the length of the Hailstone sequence for a given natural number.
+- Note on functions: functions should perform one discrete task. The main function should run behavior / actions on the smallest possible unit that makes sense in the context of the script. Functions should be well-defined and versatile so that they can be applied to small units.
+- References: [blog post] (http://gabaix.us/blog/hailstone), [Wikipedia] (https://en.wikipedia.org/wiki/Collatz_conjecture#Statement_of_the_problem)
+- [Solution] (https://github.com/goingglacial/hailstone)
