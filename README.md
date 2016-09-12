@@ -183,4 +183,20 @@ Sam only worked for 16 hours!
 
 ## Project Ideas
 ### Data Viz Your Way
-- **Objective**: Practice your HTML and JavaScript by building a basic web application; spruce it up with CSS if you so desire.
+- **Objectives**: 
+  * Practice your HTML and JavaScript by building a basic web application; spruce it up with CSS if you so desire.
+  * Build an interactive webpage that allows users to perform simple data analysis on JSON datasets.
+- This page should have three major components:
+  * A `<textarea>` that users can paste JSON into.
+  * Control functionality using `<select>`s that allow users to perform simple aggregations on ata.
+  * A horizontal or vertical bar chart composed of `<div>`s to display the aggregations.
+- For each section, in more depth:
+  * **The JSON text area**:
+    - There should be a fixed-size text area into which the user can paste JSON. 
+    - The user can click a button to process the JSON, or you can process the JSON automatically when it is entered.  
+    - If the JSON is invalid, dispay a basic error message. The JSON must be an array of objects.  The objects are all intended to generally have the same keys, but some objects may be missing some keys. You can ignore nested objects (i.e. objects within those objects).
+  * **The controls**:
+    - You must have the following three `<select>`s, two of which depend on the user-entered JSON:
+      - Group-by: You should be able to group by strings, numbers, or booleans. You don’t need to do any bucketing - numbers can be grouped by equality. The group-by selector should contain all keys which have a string, number, or boolean in any object in the JSON.
+      - Metric: You only need to support metrics on numbers. The metric selector should contain all keys that have a number in any object in the JSON.
+      - Aggregation: You must support four kinds of aggregations: minimum, maximum, average, and sum. You can make the user click a button to run the aggregation/display the results in the bar chart, or you can run it automatically whenever the controls are changed.
