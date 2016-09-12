@@ -1,5 +1,5 @@
 # Crash Course in CS
-Demystify computer science with this fast and furious approach to the fundamentals of web development, data analysis, and more.
+Demystify computer science with this fast and furious (and, of course, fun) approach to the fundamentals of coding in Python, data analysis, web development, and more.
 
 ## Goals
 - **High-level objectives**:
