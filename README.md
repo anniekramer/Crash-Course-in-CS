@@ -151,3 +151,10 @@ Sam only worked for 16 hours!
 - Gain a conceptual understanding of HTML and CSS through practice, and learn enough to be able to build a simple webpage.
   * Complete Codecademy’s [Introduction to HTML and CSS tutorial] (https://www.codecademy.com/learn/web) to explore the fundamentals of HTML, lists, tables, divs, spans, and the fundamentals of CSS, including selectors, and positioning.
 - Complete Codeacademy’s [Introduction to JavaScript] (https://www.codecademy.com/learn/javascript) tutorial to learn the fundamentals of the language.
+- Transfer your understanding of Python to JavaScript, understand the major pitfalls of JavaScript, and learn about the basics of the document object model (affectionately referred to as the DOM) -- which dictates how we interact with webpages via JavaScript.
+  * Read Chapter 1 and Chapter 2 of [Eloquent JavaScript] (http://eloquentjavascript.net/). This covers the basics of JavaScript: values, variables, and control flow. Be sure to pay close attention to the sections covering the quirks of the language.
+  * Read Chapter 3 of Eloquent JavaScript on functions.
+  * Read Chapter 4 on objects and arrays.
+  * Read Chapter 12 to explore the fundamentals of web programming.
+  * Read Chapter 13 on the DOM.
+  * Read Mozilla's [description] (https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) of the DOM.
