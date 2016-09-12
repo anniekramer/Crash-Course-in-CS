@@ -182,6 +182,11 @@ Sam only worked for 16 hours!
 - Read about iterators and generators.
 
 ## Project Ideas
+### Popolo: Explore U.S. City Populations Using AJAX
+- **Objective**: Build a web application using a Python framework, HTML, and CSS. Load data into a MySQL table and call data from the table on the frontend using AJAX.
+- [Example project] (https://github.com/goingglacial/popolo)
+- [Example project] (https://github.com/goingglacial/popoloBootstrap) styled using [Bootstrap] (http://getbootstrap.com/css/)
+
 ### Data Viz Your Way
 - **Objectives**: 
   * Practice your HTML and JavaScript by building a basic web application; spruce it up with CSS if you so desire.
@@ -200,3 +205,5 @@ Sam only worked for 16 hours!
       - Group-by: You should be able to group by strings, numbers, or booleans. You don’t need to do any bucketing - numbers can be grouped by equality. The group-by selector should contain all keys which have a string, number, or boolean in any object in the JSON.
       - Metric: You only need to support metrics on numbers. The metric selector should contain all keys that have a number in any object in the JSON.
       - Aggregation: You must support four kinds of aggregations: minimum, maximum, average, and sum. You can make the user click a button to run the aggregation/display the results in the bar chart, or you can run it automatically whenever the controls are changed.
+  * **The bar chart**:
+    - The bar chart should be composed of several `<div>`s set to appropriate widths and heights based on the results of the aggregation. You don’t need to have axes, but each bar should be labeled with its bucket and value.
