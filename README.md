@@ -29,6 +29,7 @@ Demystify computer science with this fast and furious approach to the fundamenta
 - Pick a version control system to learn.
   * Short discussion of Git vs. Mercurial.
   * [Git tutorial] (https://git-scm.com/book/en/v1/Getting-Started)
+  * [Interactive Git tutorial] (https://try.github.io/levels/1/challenges/1) from GitHub
   * [Mercurial tutorial] (http://hginit.com/)
 - Intro to basic shell commands (bash).
   * Commands (incomplete list): `cd`, `ls`, `pwd`, `mv`, `cp`, `rm`, `echo`, `cat`, `wc`, `less`, `python`
@@ -119,6 +120,17 @@ Sam only worked for 16 hours!
 ## Week 5: Git-ing Up to Speed and Finalizing Python (for now, at least)
 - Objective: Develop working knowledge of Git sufficient to understand and actively participate in a software team's collaborative processes, including developing on feature branches and submitting code for review.
 - Review the purpose of version control and the basic conceptual basis of Git by reading Chapter 1 of [Pro Git] (https://git-scm.com/book/en/v1/Getting-Started) (skip the installation instructions in section 1.4, as you already have Git installed).
-- If you find yourself by the Git material, checkj out this phenomenal [Mercurcial tutorial] (http://hginit.com/), starting from “Ground Up Mercurial." The Git commands behave slightly differently from Mercurial commands (and basic syntax is slightly different), but the higher-level concepts map closely to one another.
+- If you find yourself a little tripped up by the Git material, check out this phenomenal [Mercurcial tutorial] (http://hginit.com/), starting from “Ground Up Mercurial." The Git commands behave slightly differently from Mercurial commands (and basic syntax is slightly different), but the higher-level concepts map closely to one another.
 - Read about basic Git commands in [Chapter 2] (http://git-scm.com/book/en/Git-Basics) of Pro Git. Some parts of this chapter (like adding and committing files) should be a review of what you already know. Consider making a test Git repository and playing around with it as you read.  Don’t be afraid of trying things out!
-  * 
+  * 2.1 covers getting a Git repository with `git init` and `git clone`.
+  * 2.2 covers the concepts of staging, tracking, and ignoring files, as well as `git add`, `git diff`, `git commit`, `mv`, and `rm`. Skim the section on Ignoring Files; you don’t need to know how to write a `.gitignore` right now, but you should understand what it does.
+  * 2.3 covers the `git log` command in depth. Read about halfway down until it starts discussing the format option, then move on.
+  * 2.4 covers undoing various operations by amending commits, unstaging files, and throwing away changes to files
+  * 2.5 covers basic operations involving remote repositories: adding, removing, and pulling from remotes. Focus on the "Fetching and Pulling" and "Pushing" sections; skip everything else.
+  * The rest of Chapter 2 isn’t relevant (it covers tagging).
+- Read about branching in [Chapter 3] (https://git-scm.com/book/en/v1/Git-Branching) of Pro Git. This covers the concept of a branch; creating, deleting, and merging branches; a few commonly-used branching workflows; remote branching; and rebasing. This whole chapter covers material that is germaine to how professional software teams use Git for version control and collaboration.
+- Read more on rebasing in this [tutorial] (https://www.atlassian.com/git/tutorials/rewriting-history/#!rebase) from Atlassian.
+- Topics to Google: remote repositories, commit messages, rebasing vs. merge commits.
+- Read this [guide] (http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) to writing high-quality commit messages.
+- [Read] (https://www.atlassian.com/git/tutorials/undoing-changes/#!reset) about the `git reset` command.
+- [Learn] (http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html) how to undo mistakes with the `git reflog` command (but ignore the part at the end about freeing up space; there’s almost never any reason to do that).
