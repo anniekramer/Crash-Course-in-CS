@@ -181,7 +181,7 @@ Sam only worked for 16 hours!
 - Read about list comprehensions in Python.
 - Read about iterators and generators.
 
-## Project Ideas
+## Project Ideas (practice makes exciting progress)
 ### Popolo: Explore U.S. City Populations Using AJAX
 - **Objective**: Build a web application using a Python framework, HTML, and CSS. Load data into a MySQL table and call data from the table on the frontend using AJAX.
 - [Example project] (https://github.com/goingglacial/popolo)
