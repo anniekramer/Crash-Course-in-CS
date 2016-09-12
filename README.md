@@ -154,7 +154,7 @@ Sam only worked for 16 hours!
 - Read about the relationship between JavaScript, HTML, and CSS when a webpage loads.
   * Read [How a web page loads] (http://gent.ilcore.com/2011/05/how-web-page-loads.html).
   * For more on loading scripts, check out this [post] (http://www.html5rocks.com/en/tutorials/speed/script-loading/).
-- Read about SCSS, LESS.
+- Read about the power of preprocessed CSS languages like [Sass] (https://en.wikipedia.org/wiki/Sass_(stylesheet_language)) and [Less] (https://en.wikipedia.org/wiki/Less_(stylesheet_language), both of which compile to CSS.
 - Transfer your understanding of Python to JavaScript, understand the major pitfalls of JavaScript, and learn about the basics of the document object model (affectionately referred to as the DOM) -- which dictates how we interact with webpages via JavaScript.
   * Read Chapter 1 and Chapter 2 of [Eloquent JavaScript] (http://eloquentjavascript.net/). This covers the basics of JavaScript: values, variables, and control flow. Be sure to pay close attention to the sections covering the quirks of the language.
   * Read Chapter 3 of Eloquent JavaScript on functions.
