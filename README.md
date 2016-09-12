@@ -146,3 +146,8 @@ Sam only worked for 16 hours!
  * Explore the basics of Python's standard JSON library by reading the first part of this [tutorial] (https://pymotw.com/2/json/). Stop at "Working with Your Own Types."
  * Read this [post] (http://www.joelonsoftware.com/articles/Unicode.html) on unicode by software/SaaS master Joel Spolsky for more background on working with JSON output.
  * **Exercise**: Download this [JSON file] (https://github.com/anniekramer/Crash-Course-in-CS/blob/master/fake_peeps.json) containing fake personal information. Use the Python JSON library to determine the average age of people listed in the file and the number of people of each gender. [**Solution**] (https://github.com/goingglacial/json_test) 
+
+## Week 7: Transition to the Web
+- Gain a conceptual understanding of HTML and CSS through practice, and learn enough to be able to build a simple webpage.
+  * Complete Codecademy’s [Introduction to HTML and CSS tutorial] (https://www.codecademy.com/learn/web) to explore the fundamentals of HTML, lists, tables, divs, spans, and the fundamentals of CSS, including selectors, and positioning.
+- Complete Codeacademy’s [Introduction to JavaScript] (https://www.codecademy.com/learn/javascript) tutorial to learn the fundamentals of the language.
