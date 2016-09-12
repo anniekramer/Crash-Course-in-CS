@@ -32,6 +32,7 @@ Demystify computer science with this fast and furious approach to the fundamenta
   * [Python for Informatics] (http://www.pythonlearn.com/book_008.pdf)
   * [Codeacademy Python] (https://www.codecademy.com/learn/python): interactive tutorial
   * [Learn Python the Hard Way] (https://learnpythonthehardway.org/book/intro.html)
+  * [Think Python] (http://www.greenteapress.com/thinkpython/thinkpython.pdf)
   * Official [Python Tutorial] (https://docs.python.org/2/tutorial/)
 - Mercurial overview and why we use distributed version control systems (DVCS).
   * [Mercurial tutorial] (http://hginit.com/01.html)
@@ -41,3 +42,27 @@ Demystify computer science with this fast and furious approach to the fundamenta
 - Note on functions: functions should perform one discrete task. The main function should run behavior / actions on the smallest possible unit that makes sense in the context of the script. Functions should be well-defined and versatile so that they can be applied to small units.
 - References: [blog post] (http://gabaix.us/blog/hailstone), [Wikipedia] (https://en.wikipedia.org/wiki/Collatz_conjecture#Statement_of_the_problem)
 - [Solution] (https://github.com/goingglacial/hailstone)
+
+### Okay, you're doing great! Let's continue. 
+
+## Week 2: Let's Talk Basic Algorithms
+### Deliverable: Random Writer
+- Note that this assignment is taken from Stanford's CS106B course (Programming Abstractions).
+- See problem 2 [here] (http://www.stanford.edu/class/archive/cs/cs106b/cs106b.1136/handouts/090%20Assignment%202.pdf).
+- [Solution] (https://github.com/goingglacial/random_writer)
+
+## Week 3: More Python
+- Continue reading your Python material of choice (see above).
+
+### Deliverable: Word Ladder
+- Note that this assignment is taken from Stanford's CS106B course (Programming Abstractions).
+- See problem 1 [here] (http://www.stanford.edu/class/archive/cs/cs106b/cs106b.1136/handouts/090%20Assignment%202.pdf).
+- [Solution] (https://github.com/goingglacial/word_ladder).
+
+## Week 4: Yet More Python
+- Continue reading your Python material of choice and complete inline exercises along the way.
+- Intro to classes: read chapters 15-17 of [Think Python] (http://www.greenteapress.com/thinkpython/thinkpython.pdf).
+  * Skip 17.7, 17.8, and 17.9 (operator overloading, type-based dispatch, and polymorphism) for now as they're not yet relevant.
+- Read the [Semantics] (http://www.itmaybeahack.com/book/python-2.6/html/p03/p03c01_class.html#semantics) section in Building Skills in Python.
+
+### Deliverable: Payroll Program
