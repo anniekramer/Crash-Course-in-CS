@@ -158,3 +158,16 @@ Sam only worked for 16 hours!
   * Read Chapter 12 to explore the fundamentals of web programming.
   * Read Chapter 13 on the DOM.
   * Read Mozilla's [description] (https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) of the DOM.
+- Read about the [fundamentals of jQuery] (http://learn.jquery.com/about-jquery/how-jquery-works/).
+- Read about [callbacks and AJAX requests] (http://learn.jquery.com/ajax/) using jQuery.
+  * For more on jQuery, check out this [slide deck] (http://ejohn.org/apps/workshop/intro/#8).
+  * For more on callback functions in JavaScript, check out this [post] (http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/).
+
+## Week 8 and Beyond: More Topics for Exploration
+- Review tuples and practical implementations of tuples.
+- Review the fundamentals functional programming. After reading about `map` and `reduce` functions, code up original implementations of each function. Do **not** use the built-in map or reduce methods in either implementation. [Solution] (https://github.com/goingglacial/functional)
+- Read about using a simple HTTPS server and how to run a web app locally using the `python SimpleHTTPServer` command.
+- Explore algorithms, performance, and Big-O notation. Talk about different sorting methods (bubble sort, insertion sort, merge sort / quick sort) and searching. 
+  * [Introduction to Big-O notation] (https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
+  * Exercise: Compute Big-O notation for insertion sorting.
+- 
