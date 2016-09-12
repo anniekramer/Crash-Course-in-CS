@@ -8,7 +8,7 @@ Demystify computer science with this fast and furious approach to the fundamenta
   * Build a simple web app with a Python backend and a JavaScript frontend
   * Perform simple programmatic data analysis using Python
 
-- **Concrete skills for strong foundations in computer science and working on a software team**:
+- **Concrete skills for strong foundations in computer science:
   * Basic program execution and flow: be able to trace a piece of code line by line and say what it does/outputs)
   * Object-oriented programming (OOP): be able to explain methods and inheritance, the purpose of methods
   * Debugging fundamentals: be able to use the developer console to step through and debug simple programs
@@ -66,3 +66,44 @@ Demystify computer science with this fast and furious approach to the fundamenta
 - Read the [Semantics] (http://www.itmaybeahack.com/book/python-2.6/html/p03/p03c01_class.html#semantics) section in Building Skills in Python.
 
 ### Deliverable: Payroll Program
+- Objective: Work with reading files, string manipulation, lists, and dictionaries.
+- Program requirements: The program takes one command line argument: the name of a text file to read.  The contents of the file will look like this:
+```
+Sam            Teacher       25   :   4  5  3  2  2  0  0
+Annie          Programmer    40   :   7  7  9  8  5  1  1
+Max            Programmer    43   :   9  9  9  10 7  5  0
+Ryan           Teacher       55   :   10 9  11 9  6  3  3
+Deats          Programmer    40   :   8  7  9  8  5  0  4
+```
+- **File specifications**:
+  * The first column in the person’s name (first name only with no spaces).
+  * The second column is the person’s role (again, no spaces).
+  * The third column is each person's hourly wage.
+  * The remaining columns are how much they worked on each day of the week, starting with Monday and ending with Sunday.
+- **What if a given input file doesn't match this format?**
+  * Your program is allowed to have undefined behavior on input files that do not match this format. In practice, this simply means that you don’t need to consider this case, so your program will most likely just crash.
+- From this information, **compute payroll as follows**:
+  * Normal pay for up to 40 hours of work during the work week (Monday-Friday).
+  * 1.5x overtime pay for any hours above 40 worked during the week.
+  * 1.5x overtime pay for all weekend hours.
+- **Required output**:
+  * Payroll: Print each person’s name and the amount of money they’re owed for that week.
+  * Expense breakdown: For each role, print the total amount spent on that role and the percentage of the total of that role’s spend (rounded to the nearest percent). Also print the total expense for that week.
+  * Slacker warnings: For each person who worked less than 20 hours in a week, print a warning about them being a slacker.
+  * Example output (for the example input file above):
+```
+=== Payroll ===
+Sam: $400.00
+Annie: $1560.00
+Max: $2300.50
+Ryan: $3107.50
+Deats: $1720.00
+
+=== Expense Breakdown ===
+Programmer: $5580.50, 61%
+Teacher: $3507.50, 39%
+Total: $9088.00
+
+=== Slackers ===
+Sam only worked for 16 hours!
+```
