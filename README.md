@@ -151,6 +151,7 @@ Sam only worked for 16 hours!
 - Gain a conceptual understanding of HTML and CSS through practice, and learn enough to be able to build a simple webpage.
   * Complete Codecademy’s [Introduction to HTML and CSS tutorial] (https://www.codecademy.com/learn/web) to explore the fundamentals of HTML, lists, tables, divs, spans, and the fundamentals of CSS, including selectors, and positioning.
 - Complete Codeacademy’s [Introduction to JavaScript] (https://www.codecademy.com/learn/javascript) tutorial to learn the fundamentals of the language.
+- Read about the relationship between JavaScript, HTML, and CSS when a webpage loads.
 - Transfer your understanding of Python to JavaScript, understand the major pitfalls of JavaScript, and learn about the basics of the document object model (affectionately referred to as the DOM) -- which dictates how we interact with webpages via JavaScript.
   * Read Chapter 1 and Chapter 2 of [Eloquent JavaScript] (http://eloquentjavascript.net/). This covers the basics of JavaScript: values, variables, and control flow. Be sure to pay close attention to the sections covering the quirks of the language.
   * Read Chapter 3 of Eloquent JavaScript on functions.
@@ -167,7 +168,11 @@ Sam only worked for 16 hours!
 - Review tuples and practical implementations of tuples.
 - Review the fundamentals functional programming. After reading about `map` and `reduce` functions, code up original implementations of each function. Do **not** use the built-in map or reduce methods in either implementation. [Solution] (https://github.com/goingglacial/functional)
 - Read about using a simple HTTPS server and how to run a web app locally using the `python SimpleHTTPServer` command.
-- Explore algorithms, performance, and Big-O notation. Talk about different sorting methods (bubble sort, insertion sort, merge sort / quick sort) and searching. 
+- Explore algorithms, performance, and Big-O notation. Read about different sorting methods (bubble sort, insertion sort, merge sort / quick sort) and searching. 
   * [Introduction to Big-O notation] (https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
   * Exercise: Compute Big-O notation for insertion sorting.
-- 
+- Complete this amazing [Introduction to SQL] (https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/) tutorial from Mode Analytics to learn about querying over tables and large datastores.
+- Read about how the frontend and backend work together and are integrated.
+- Read about debugging utilities, including the developer console, print statements, the JavaScript `debugger`, and Python's `pdb` utility.
+- Read about list comprehensions in Python.
+- Read about iterators and generators.
