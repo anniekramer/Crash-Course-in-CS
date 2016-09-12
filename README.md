@@ -18,12 +18,18 @@ Demystify computer science with this fast and furious approach to the fundamenta
   * Code review: why it's important, what it entails, how to respond to feedback
   * Version control and Git fundamentals: be able to work on a feature branch, understand the relationship between the master branch and feature branches
 
+- **Curriculum structure**:
+  * Reading assignments
+  * Deliverables: practical applications of reading material
+
 # Curriculum
 ## Week 1: CS Fundamentals
 - Pick a text editor.
   * Short discussion of VIM vs. EMACS vs. Sublime Text. What is a GUI?
 - Pick a version control system to learn.
   * Short discussion of Git vs. Mercurial.
+  * [Git tutorial] (https://git-scm.com/book/en/v1/Getting-Started)
+  * [Mercurial tutorial] (http://hginit.com/)
 - Intro to basic shell commands (bash).
   * Commands (incomplete list): `cd`, `ls`, `pwd`, `mv`, `cp`, `rm`, `echo`, `cat`, `wc`, `less`, `python`
   * Concepts: `$PATH`, tab completion, command line arguments, simple piping
@@ -107,3 +113,12 @@ Total: $9088.00
 === Slackers ===
 Sam only worked for 16 hours!
 ```
+- Remember: it’s easiest to build projects by breaking them down into small steps.
+- To parse the file, you’ll want to use the Python [string methods] (https://docs.python.org/2/library/stdtypes.html#string-methods). See especially [split] (https://docs.python.org/2/library/stdtypes.html#string-methods) and [splitlines] (https://docs.python.org/2/library/stdtypes.html#str.splitlines).
+
+## Week 5: Git-ing Up to Speed and Finalizing Python (for now, at least)
+- Objective: Develop working knowledge of Git sufficient to understand and actively participate in a software team's collaborative processes, including developing on feature branches and submitting code for review.
+- Review the purpose of version control and the basic conceptual basis of Git by reading Chapter 1 of [Pro Git] (https://git-scm.com/book/en/v1/Getting-Started) (skip the installation instructions in section 1.4, as you already have Git installed).
+- If you find yourself by the Git material, checkj out this phenomenal [Mercurcial tutorial] (http://hginit.com/), starting from “Ground Up Mercurial." The Git commands behave slightly differently from Mercurial commands (and basic syntax is slightly different), but the higher-level concepts map closely to one another.
+- Read about basic Git commands in [Chapter 2] (http://git-scm.com/book/en/Git-Basics) of Pro Git. Some parts of this chapter (like adding and committing files) should be a review of what you already know. Consider making a test Git repository and playing around with it as you read.  Don’t be afraid of trying things out!
+  * 
