@@ -18,5 +18,10 @@ Demystify computer science with this fast and furious approach to the fundamenta
   * Code review: why it's important, what it entails, how to respond to feedback
   * Version control and Git fundamentals: be able to work on a feature branch, understand the relationship between the master branch and feature branches
 
-## Curriculum
-# Week 1
+# Curriculum
+## Week 1: CS Fundamentals
+- Pick a text editor.
+  * Short discussion of VIM vs. EMACS vs. Sublime Text. What is a GUI?
+- Pick a version control system to learn.
+  * Short discussion of Git vs. Mercurial.
+- Intro to basic shell commands (bash).
