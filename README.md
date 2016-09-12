@@ -169,17 +169,18 @@ Sam only worked for 16 hours!
 - Read about [using the d3 library] (http://alignedleft.com/tutorials/d3/about) to render data visualizations.
 
 ## Week 8 and Beyond: More Topics for Exploration
-- Review tuples and practical implementations of tuples.
+- Dive into data structures and [algorithms] (http://algs4.cs.princeton.edu/home/).
+  * Explore performance and [Big-O notation] (https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/). 
+  * Read about different sorting methods (bubble sort, insertion sort, merge sort / quick sort) and searching. 
+  * **Exercise**: Compute Big-O notation for insertion sorting.
 - Review the fundamentals functional programming. After reading about `map` and `reduce` functions, code up original implementations of each function. Do **not** use the built-in map or reduce methods in either implementation. [Solution] (https://github.com/goingglacial/functional)
 - Read about using a simple HTTPS server and how to run a web app locally using the `python SimpleHTTPServer` command.
-- Explore algorithms, performance, and Big-O notation. Read about different sorting methods (bubble sort, insertion sort, merge sort / quick sort) and searching. 
-  * [Introduction to Big-O notation] (https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
-  * Exercise: Compute Big-O notation for insertion sorting.
 - Complete this amazing [Introduction to SQL] (https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/) tutorial from Mode Analytics to learn about querying over tables and large datastores.
 - Read about how the frontend and backend work together and are integrated.
 - Read about debugging utilities, including the developer console, print statements, the JavaScript `debugger`, and Python's `pdb` utility.
 - Read about list comprehensions in Python.
 - Read about iterators and generators.
+- Review tuples and practical implementations of tuples.
 
 ## Project Ideas (practice makes exciting progress)
 ### Popolo: Explore U.S. City Populations Using AJAX
