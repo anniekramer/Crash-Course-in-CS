@@ -143,4 +143,6 @@ Sam only worked for 16 hours!
 - Linting: Read this high-level [overview] (https://en.wikipedia.org/wiki/Lint_(software).
 - What is JSON? And what's up with JSON serialization and deserialization? And how do we analyze JSON blobs using Python?
  * Read this Stack Overflow [answer] (http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it) for the fundamentals of JSON.
- * 
+ * Explore the basics of Python's standard JSON library by reading the first part of this [tutorial] (https://pymotw.com/2/json/). Stop at "Working with Your Own Types."
+ * Read this [post] (http://www.joelonsoftware.com/articles/Unicode.html) on unicode by software/SaaS master Joel Spolsky for more background on working with JSON output.
+ * **Exercise**: Download this JSON file containing fake personal information. Use the Python JSON library to determine the average age of people listed in the file and the number of people of each gender.
