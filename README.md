@@ -152,6 +152,8 @@ Sam only worked for 16 hours!
   * Complete Codecademy’s [Introduction to HTML and CSS tutorial] (https://www.codecademy.com/learn/web) to explore the fundamentals of HTML, lists, tables, divs, spans, and the fundamentals of CSS, including selectors, and positioning.
 - Complete Codeacademy’s [Introduction to JavaScript] (https://www.codecademy.com/learn/javascript) tutorial to learn the fundamentals of the language.
 - Read about the relationship between JavaScript, HTML, and CSS when a webpage loads.
+  * Read [How a web page loads] (http://gent.ilcore.com/2011/05/how-web-page-loads.html).
+- Read about SCSS, LESS.
 - Transfer your understanding of Python to JavaScript, understand the major pitfalls of JavaScript, and learn about the basics of the document object model (affectionately referred to as the DOM) -- which dictates how we interact with webpages via JavaScript.
   * Read Chapter 1 and Chapter 2 of [Eloquent JavaScript] (http://eloquentjavascript.net/). This covers the basics of JavaScript: values, variables, and control flow. Be sure to pay close attention to the sections covering the quirks of the language.
   * Read Chapter 3 of Eloquent JavaScript on functions.
@@ -163,6 +165,7 @@ Sam only worked for 16 hours!
 - Read about [callbacks and AJAX requests] (http://learn.jquery.com/ajax/) using jQuery.
   * For more on jQuery, check out this [slide deck] (http://ejohn.org/apps/workshop/intro/#8).
   * For more on callback functions in JavaScript, check out this [post] (http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/).
+- Read about [using the d3 library] (http://alignedleft.com/tutorials/d3/about) to render data visualizations.
 
 ## Week 8 and Beyond: More Topics for Exploration
 - Review tuples and practical implementations of tuples.
@@ -176,3 +179,7 @@ Sam only worked for 16 hours!
 - Read about debugging utilities, including the developer console, print statements, the JavaScript `debugger`, and Python's `pdb` utility.
 - Read about list comprehensions in Python.
 - Read about iterators and generators.
+
+## Project Ideas
+### Data Viz Your Way
+- **Objective**: Practice your HTML and JavaScript by building a basic web application; spruce it up with CSS if you so desire.
