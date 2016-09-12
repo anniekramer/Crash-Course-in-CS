@@ -117,7 +117,7 @@ Sam only worked for 16 hours!
 - Remember: it’s easiest to build projects by breaking them down into small steps.
 - To parse the file, you’ll want to use the Python [string methods] (https://docs.python.org/2/library/stdtypes.html#string-methods). See especially [split] (https://docs.python.org/2/library/stdtypes.html#string-methods) and [splitlines] (https://docs.python.org/2/library/stdtypes.html#str.splitlines).
 
-## Week 5: Git-ing Up to Speed and Finalizing Python (for now, at least)
+## Week 5: Git-ing Up to Speed
 - Objective: Develop working knowledge of Git sufficient to understand and actively participate in a software team's collaborative processes, including developing on feature branches and submitting code for review.
 - Review the purpose of version control and the basic conceptual basis of Git by reading Chapter 1 of [Pro Git] (https://git-scm.com/book/en/v1/Getting-Started) (skip the installation instructions in section 1.4, as you already have Git installed).
 - If you find yourself a little tripped up by the Git material, check out this phenomenal [Mercurcial tutorial] (http://hginit.com/), starting from “Ground Up Mercurial." The Git commands behave slightly differently from Mercurial commands (and basic syntax is slightly different), but the higher-level concepts map closely to one another.
@@ -134,3 +134,9 @@ Sam only worked for 16 hours!
 - Read this [guide] (http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) to writing high-quality commit messages.
 - [Read] (https://www.atlassian.com/git/tutorials/undoing-changes/#!reset) about the `git reset` command.
 - [Learn] (http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html) how to undo mistakes with the `git reflog` command (but ignore the part at the end about freeing up space; there’s almost never any reason to do that).
+
+## Week 6: Finalizing Python (for now, at least)
+- Read the about [errors and exceptions] (https://docs.python.org/2/tutorial/errors.html) in Python; skip 8.5 (user-defined exceptions). Note that exceptions are errors detected during program execution.
+  * **Exercise**: Write a program that takes in the name of a file as an argument and prints the number of lines in the file.  If the file cannot be opened or does not exist, print a nice error message (which does not have to describe the particular error) and exit. [Solution] (https://github.com/goingglacial/exceptions/blob/master/exceptions.py)
+- Read about basic functional programming (Python functions as valuables)
+- 
