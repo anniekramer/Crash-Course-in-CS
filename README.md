@@ -139,4 +139,8 @@ Sam only worked for 16 hours!
 - Read the about [errors and exceptions] (https://docs.python.org/2/tutorial/errors.html) in Python; skip 8.5 (user-defined exceptions). Note that exceptions are errors detected during program execution.
   * **Exercise**: Write a program that takes in the name of a file as an argument and prints the number of lines in the file.  If the file cannot be opened or does not exist, print a nice error message (which does not have to describe the particular error) and exit. [Solution] (https://github.com/goingglacial/exceptions/blob/master/exceptions.py)
 - Read about basic functional programming (Python functions as valuables)
-- 
+- Tuples: Skim [Chapter 10] (http://www.pythonlearn.com/book_008.pdf) in Python for Informatics, which discusses the basic concept of tuples, multiple assignment, and some useful applications. The Decorate, Sort, Update pattern it describes is no longer considered idiomatic, but it works perfectly well until you learn a better way. Don’t worry about a deep understanding of tuples - familiarity is fine for now!
+- Linting: Read this high-level [overview] (https://en.wikipedia.org/wiki/Lint_(software).
+- What is JSON? And what's up with JSON serialization and deserialization? And how do we analyze JSON blobs using Python?
+ * Read this Stack Overflow [answer] (http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it) for the fundamentals of JSON.
+ * 
