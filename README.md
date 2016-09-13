@@ -148,9 +148,9 @@ Sam only worked for 16 hours!
  * **Exercise**: Download this [JSON file] (https://github.com/anniekramer/Crash-Course-in-CS/blob/master/fake_peeps.json) containing fake personal information. Use the Python JSON library to determine the average age of people listed in the file and the number of people of each gender. [**Solution**] (https://github.com/goingglacial/json_test) 
 
 ## Week 7: Transition to the Web
-- Gain a conceptual understanding of HTML and CSS through practice, and learn enough to be able to build a simple webpage.
+- Gain a conceptual understanding of HTML, CSS, and JavaScript through practice, and learn enough to be able to build a simple webpage.
   * Complete Codecademy’s [Introduction to HTML and CSS tutorial] (https://www.codecademy.com/learn/web) to explore the fundamentals of HTML, lists, tables, divs, spans, and the fundamentals of CSS, including selectors, and positioning.
-- Complete Codeacademy’s [Introduction to JavaScript] (https://www.codecademy.com/learn/javascript) tutorial to learn the fundamentals of the language.
+  * Complete Codeacademy’s [Introduction to JavaScript] (https://www.codecademy.com/learn/javascript) tutorial to learn the fundamentals of the language.
 - Read about the relationship between JavaScript, HTML, and CSS when a webpage loads.
   * Read [How a web page loads] (http://gent.ilcore.com/2011/05/how-web-page-loads.html).
   * For more on loading scripts, check out this [post] (http://www.html5rocks.com/en/tutorials/speed/script-loading/).
