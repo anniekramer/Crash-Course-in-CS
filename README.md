@@ -8,7 +8,7 @@ Demystify computer science with this fast and furious (and, of course, fun) appr
   * Build a simple web app with a Python backend and a JavaScript frontend
   * Perform simple programmatic data analysis using Python
 
-- **Concrete skills for strong foundations in computer science:
+- **Concrete skills for strong foundations in computer science**:
   * Basic program execution and flow: be able to trace a piece of code line by line and say what it does/outputs)
   * Object-oriented programming (OOP): be able to explain methods and inheritance, the purpose of methods
   * Debugging fundamentals: be able to use the developer console to step through and debug simple programs
